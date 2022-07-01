@@ -13,4 +13,4 @@ $smsController = new SMSController($smsService);
 $smsController->createFromFile($argv[1]);
 
 $smsList = $smsController->getAllAsJson();
-echo json_encode($smsList);
+echo stripslashes(json_encode($smsList));
