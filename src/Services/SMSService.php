@@ -2,7 +2,6 @@
 
 namespace App\Services;
 
-use App\Models\SMS;
 use App\Repositories\SMSRepository;
 use Exception;
 
